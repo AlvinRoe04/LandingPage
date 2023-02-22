@@ -1,0 +1,25 @@
+*{
+    border: solid;
+    border-color : maroon;
+}
+
+div {
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+}
+.links {
+    display: flex;
+    align-items:center;
+    margin-right: 0em;
+    justify-content:space-around;
+}
+
+.links a{
+    margin-right: .25em;
+    margin-left: .25em;
+}
