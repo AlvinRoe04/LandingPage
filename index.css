@@ -1,17 +1,42 @@
+
+
+/*
 *{
     border: solid;
     border-color : maroon;
+    margin:0;
+    padding: 0;
+} */
+html {
+    height: 100%;
+    margin: 0;
 }
 
-div {
-    margin-left: 4em;
-    margin-right: 4em;
+body {
+    margin: 0;
+}
+
+.section {
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 7rem;
+}
+
+.section.opener {
+    background-color: #1F2937;
 }
 
 .navbar {
     display: flex;
     justify-content:space-between;
+    margin-bottom:6rem;
 }
+
+.navbar h2 {
+    font-size: 2.5rem;
+    color:#F9FAF8;
+}
+
 .links {
     display: flex;
     align-items:center;
@@ -20,6 +45,169 @@ div {
 }
 
 .links a{
-    margin-right: .25em;
-    margin-left: .25em;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    text-decoration:none;
+    color:#E5E7EB;
+}
+
+.hook {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.call-to-action {
+    width: 50%;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    flex: 1; 
+}
+.call-to-action h1 {
+    font-size:5em;
+    font-family:sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight:900;
+    color:#F9FAF8;
+}
+.call-to-action p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #F9FAF8;
+    align-self: flex-end;
+}
+
+.call-to-action .button-container {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+.call-to-action button {
+    background-color: #3882F6;
+    border: 0;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: .5rem 1.25rem .5rem;
+    font-size: 1.25rem;
+}
+
+.hook .image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex: 1;
+    
+}
+
+.hook .image-container img {
+    height: 25rem;
+    align-self: center;
+}
+
+
+.random-info.section {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.random-info h2 {
+    align-self: center;
+    font-size: 3.5rem;
+    color:#1F2937;
+
+}
+
+.random-info .images-w-subtext {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+.random-info .images-w-subtext div{
+    height: 15rem;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;    
+}
+.random-info .images-w-subtext div img{
+    height: auto;
+    width: 10rem;
+    align-self:center;
+}
+.random-info .images-w-subtext div p{
+    flex: 5;
+    text-align:center;
+}
+
+.quote-section.section {
+    background-color:#E5E7EB;
+}
+.quote-section.section h3 {
+    font-size: 3rem;
+    font-weight:300;
+}
+.quote-section.section h4 {
+    font-size: 1.5rem;
+    text-align:end;
+}
+
+.footer-call.section {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:74%;
+    height:30rem;
+    padding-bottom:0;
+}
+.footer-call.section .final-call-to-action {
+    background-color: #3882F6;
+    height:20%;
+    width:60%;
+    border-radius:1.5rem;
+    padding: 4rem 4rem 4rem;
+    display:flex;   
+    justify-content: space-between; 
+}
+
+.footer-call.section .final-call-to-action .call-text{
+    align-self:center;
+    display: flex;
+    flex-direction:column;
+    color: #F9FAF8;
+}
+.footer-call.section .final-call-to-action .call-text h3{
+    color: #F9FAF8;
+    font-size:3rem;
+    font-weight:400;
+    margin:0;
+}
+
+.footer-call.section .final-call-to-action .button{
+    display:flex;
+    align-items: center;
+}
+
+.footer-call.section .final-call-to-action .button button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color:#F9FAF8;
+    border-radius: 8px;
+    padding: .4rem 1.1rem .4rem;
+    font-size: 1.1rem;    
+}
+
+.copyright.section {
+    background-color: #1F2937;
+    display:flex;
+    justify-content: center;
+
+}
+.copyright.section span {
+    color:#F9FAF8; 
+    margin-top: 8rem;
+    font-size: 1.15rem;
 }
